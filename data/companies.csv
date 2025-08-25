@@ -1,0 +1,63 @@
+ID,name,company_type,url,github_url,location,description
+1,100Starlings,Technology Consulting,https://www.100starlings.com/,https://github.com/100Starlings,"Technology Consulting
+100starlings.com/
+GitHub
+Remote","We are a cooperative of like minded professionals skilled at solving problems and creating excellent products for our clients. We have experience with Elixir, Ruby, JavaScript, AWS, Mobile development and more. Our fully remote team is currently split between London, Berlin, and Hungary. We also have a retreat every year and a training budget."
+2,10Pines,Technology Consulting,https://www.10pines.com/,https://github.com/10pines,"Technology Consulting
+10pines.com/
+GitHub
+Argentina",We craft elegant software using Elixir / Phoenix among other modern technologies. Organizers and sponsors of Erlang/Elixir local conference and organizers of local Elixir meetup.
+3,22cans,Gaming,http://www.22cans.com/,https://github.com/22cans,"Gaming
+22cans.com/
+GitHub
+United Kingdom","22cans is an independent game studio founded by the industry legend and creator of God Game genre, Peter Molyneux. Creators of Curiosity and Godus."
+4,2U,Education Technology,https://2u.com/,https://github.com/2uinc,"Education Technology
+2u.com
+GitHub
+USA","2U powers the world’s best digital higher education. When students win, universities win, and by coming together around one shared goal—delivering great student outcomes—we are transforming the future of higher education for the better. We use Elixir, Phoenix, and Absinthe to develop high performance data pipelines, and abstractions on difficult-to-integrate third party services."
+5,361° DIGITAL,Technology Consulting,https://361.de/,,"Technology Consulting
+361.de
+GitHub
+Germany","We are a digital agency based in Stuttgart, Germany. We create web and mobile apps using Elixir, Phoenix, React and React Native."
+6,AccessOwl,Technology,https://www.accessowl.com/,https://github.com/AccessOwl,"Technology
+accessowl.com/
+GitHub
+Germany","Automate Employee’s access to any SaaS app. Manage SaaS access, apps and vendors in one place. Connect any app without upgrading it to an enterprise-subscription."
+7,AdRoll,Marketing/Sales,https://www.adroll.com/,https://github.com/AdRoll,"Marketing/Sales
+adroll.com
+GitHub
+USA",AdRoll is a marketing platform enabling brands of all sizes to create personalized ad campaigns based on their own website data. They use Elixir in their high-volume data processing pipeline.
+8,Adjust,Enterprise Software,https://www.adjust.com/,https://github.com/adjust,"Enterprise Software
+adjust.com/
+GitHub
+Germany","Mobile user attribution and advanced app analytics, combined with store stats."
+9,Adobe,Computer Software,https://www.adobe.com/,https://github.com/adobe,"Computer Software
+adobe.com/
+GitHub
+USA",Adobe provides digital media and digital marketing solutions. Adobe is using Elixir to build a combined client/cloud application for collaborative photography workflow.
+10,Agilion,Technology Consulting,https://www.agilion.com/,https://github.com/agilionapps,"Technology Consulting
+agilion.com
+GitHub
+USA",Software development and consulting.
+11,Aircloak,Business Intelligence,https://aircloak.com/,https://github.com/Aircloak,"Business Intelligence
+aircloak.com/
+GitHub","Aircloak’s first-in-class real-time database anonymization solution provides instant privacy compliance and enables high-quality analytics for any data set and any use case. Aircloak’s from Berlin. Saša Jurić, the author of Elixir in Action is software engineer at Aircloak."
+12,Albert,Education,https://www.albert.io/,https://github.com/albert-io,"Education
+albert.io/
+GitHub
+USA","Learn anything through interactive practice: College math and science, Advanced Placement®, SAT®, ACT®, GRE®, GMAT®, literature, social science, history, and more. Our API services are built with Elixir, Phoenix, and PostgreSQL."
+13,Alembic,Technology Consulting,https://alembic.com.au/,https://github.com/team-alembic,"Technology Consulting
+alembic.com.au
+GitHub
+Australia","Elixir, Javascript, React and GraphQL development and consulting. Organisers of Elixir Sydney Meetup, co-organisers of Elixir Camp and supporters of Elixir Girls."
+14,All Aboard,Information Technology,https://allaboard.eu/,https://github.com/allaboard-dev,"Information Technology
+allaboard.eu/
+GitHub
+Sweden",Easy-to-use booking API and platform for European train tickets.
+15,AlphaSights,Expert Networks,https://engineering.alphasights.com/,https://github.com/alphasights,"Expert Networks
+engineering.alphasights.com
+GitHub","Global knowledge broker with regional hubs in Europe, the Americas, Asia and the Middle East."
+16,AmberBit,Technology Consulting,https://www.amberbit.com/,https://github.com/amberbit,"Technology Consulting
+amberbit.com
+GitHub
+Poland","We are polyglot developers (but mostly Ruby, JavaScript, Elixir, Elm)."
