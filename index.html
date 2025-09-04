@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3: Methodology Presentation</title>
+    <style>
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ffffff;
+            color: #333333;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+        .slide-container {
+            width: 100%;
+            max-width: none;
+        }
+        .slide {
+            width: 10in;
+            height: 7.5in;
+            background: white;
+            border: 1px solid #ddd;
+            margin: 20px auto;
+            padding: 60px;
+            box-sizing: border-box;
+            position: relative;
+            page-break-after: always;
+            display: flex;
+            flex-direction: column;
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            font-size: 14px;
+            color: #666;
+            font-weight: bold;
+        }
+        h1 {
+            color: #1f4e79;
+            font-size: 28px;
+            margin-bottom: 25px;
+            text-align: center;
+            border-bottom: 3px solid #4472c4;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #1f4e79;
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        h3 {
+            color: #2d5aa0;
+            font-size: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #4472c4;
+            padding-left: 15px;
+        }
+        h4 {
+            color: #2d5aa0;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        ul {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-left: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .info-box {
+            background: #f2f8ff;
+            border: 2px solid #4472c4;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .highlight {
+            background: #fff2cc;
+            border-left: 4px solid #d6b656;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .diagram-placeholder {
+            border: 2px dashed #4472c4;
+            background: #f8f9ff;
+            padding: 30px;
+            text-align: center;
+            margin: 15px 0;
+            border-radius: 8px;
+            color: #2d5aa0;
+            font-weight: bold;
+        }
+        .two-column {
+            display: flex;
+            gap: 20px;
+        }
+        .column {
+            flex: 1;
+        }
+        .timeline-box {
+            background: #e8f3ff;
+            border: 1px solid #4472c4;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .tech-item {
+            background: #f0f7ff;
+            border: 1px solid #b3d1ff;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid #4472c4;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background: #4472c4;
+            color: white;
+        }
+        .student-info {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 16px;
+        }
+        .thank-you {
+            text-align: center;
+            font-size: 32px;
+            color: #1f4e79;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        
+        <!-- Slide 1: Title Page -->
+        <div class="slide">
+            <div class="slide-number">1</div>
+            <h1>Chapter 3: Methodology</h1>
+            <div style="text-align: center; margin-top: 40px;">
+                <h2 style="color: #4472c4;">Design and Implementation of a Real-Time Web-Based Resource-Sharing and Referral Platform for Primary Healthcare Centers</h2>
+            </div>
+            <div class="student-info">
+                <p><strong>Student:</strong> AKANDE Olumide Jonathan</p>
+                <p><strong>Matric No:</strong> 222458</p>
+                <p><strong>Supervisor:</strong> Prof. Bolanle Oladejo</p>
+                <p><strong>Department:</strong> Computer Science</p>
+                <p><strong>University of Ibadan</strong></p>
+            </div>
+        </div>
+
+        <!-- Slide 2: Introduction -->
+        <div class="slide">
+            <div class="slide-number">2</div>
+            <h2>Introduction</h2>
+            
+            <div class="info-box">
+                <h3>Chapter Overview</h3>
+                <p>This chapter presents the comprehensive research methodology employed in the design and implementation of a real-time web-based resource-sharing and referral platform specifically tailored for primary healthcare centers in Ibadan North-West Local Government Area, Oyo State, Nigeria.</p>
+            </div>
+
+            <h3>Importance of System Analysis and Design</h3>
+            <ul>
+                <li><strong>User Requirements Understanding:</strong> Ensures system meets actual PHC operational needs</li>
+                <li><strong>Technical Robustness:</strong> Structured approach guarantees security and performance standards</li>
+                <li><strong>Stakeholder Engagement:</strong> Continuous feedback integration throughout development</li>
+                <li><strong>Scalability Planning:</strong> Architecture designed for future expansion across more PHCs</li>
+                <li><strong>Risk Mitigation:</strong> Early identification of technical and operational constraints</li>
+            </ul>
+
+            <div class="highlight">
+                <strong>Research Approach:</strong> Mixed-methods methodology combining Design Science Research with User-Centered Design principles, emphasizing practical problem-solving for healthcare environments.
+            </div>
+        </div>
+
+        <!-- Slide 3: Problem Definition -->
+        <div class="slide">
+            <div class="slide-number">3</div>
+            <h2>System Analysis - Problem Definition</h2>
+
+            <h3>Current Resource Distribution Inefficiencies in PHC Networks</h3>
+            
+            <div class="two-column">
+                <div class="column">
+                    <div class="info-box">
+                        <h4>Communication Bottlenecks</h4>
+                        <ul>
+                            <li>Manual phone-based coordination</li>
+                            <li>No centralized communication platform</li>
+                            <li>Delayed emergency response coordination</li>
+                            <li>Information loss during handovers</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>Resource Management Issues</h4>
+                        <ul>
+                            <li>No real-time inventory visibility</li>
+                            <li>Frequent critical supply shortages</li>
+                            <li>Expired medications due to poor tracking</li>
+                            <li>Duplicate emergency procurement</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="info-box">
+                        <h4>Patient Referral Challenges</h4>
+                        <ul>
+                            <li>Paper-based referral documentation</li>
+                            <li>No referral outcome tracking</li>
+                            <li>Poor inter-facility care coordination</li>
+                            <li>Lost patient follow-up information</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>Operational Impact</h4>
+                        <ul>
+                            <li>High administrative overhead</li>
+                            <li>Poor resource utilization efficiency</li>
+                            <li>Limited collaborative care delivery</li>
+                            <li>Reduced patient care quality</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <strong>Geographic Scope:</strong> Ibadan North-West LGA with approximately 15-20 PHCs within 50-kilometer radius for practical resource sharing viability.
+            </div>
+        </div>
+
+        <!-- Slide 4: Functional Requirements -->
+        <div class="slide">
+            <div class="slide-number">4</div>
+            <h2>Requirements Analysis - Functional Requirements</h2>
+
+            <div class="two-column">
+                <div class="column">
+                    <div class="info-box">
+                        <h4>User Management System</h4>
+                        <ul>
+                            <li>Google OAuth 2.0 authentication</li>
+                            <li>Role-based access control (RBAC)</li>
+                            <li>Multi-factor authentication (2FA)</li>
+                            <li>Comprehensive activity logging</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>Real-Time Resource Management</h4>
+                        <ul>
+                            <li>Live inventory tracking and updates</li>
+                            <li>Resource request workflows</li>
+                            <li>Automated low-stock alerts</li>
+                            <li>Resource sharing approval system</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>Communication & Collaboration</h4>
+                        <ul>
+                            <li>Secure inter-PHC messaging</li>
+                            <li>Group discussions for coordination</li>
+                            <li>Emergency broadcast capabilities</li>
+                            <li>Real-time notification system</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="info-box">
+                        <h4>Patient Referral System</h4>
+                        <ul>
+                            <li>Digital referral creation and tracking</li>
+                            <li>Inter-facility care coordination</li>
+                            <li>Referral outcome monitoring</li>
+                            <li>Patient journey documentation</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>Analytics & Reporting</h4>
+                        <ul>
+                            <li>Resource utilization dashboards</li>
+                            <li>Referral patterns analysis</li>
+                            <li>System usage statistics</li>
+                            <li>Performance metrics tracking</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>Administrative Functions</h4>
+                        <ul>
+                            <li>User and facility management</li>
+                            <li>System configuration controls</li>
+                            <li>Audit trail maintenance</li>
+                            <li>Backup and recovery procedures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Non-Functional Requirements -->
+        <div class="slide">
+            <div class="slide-number">5</div>
+            <h2>Requirements Analysis - Non-Functional Requirements</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Requirement</th>
+                        <th>Healthcare Context Justification</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Performance</strong></td>
+                        <td>Response time < 1 second<br>99.5% system uptime<br>Support 50+ concurrent users</td>
+                        <td>Healthcare emergencies require immediate system response</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Security</strong></td>
+                        <td>TLS 1.3 encryption<br>OAuth 2.0 + 2FA<br>RBAC implementation<br>Comprehensive audit logging</td>
+                        <td>Protecting sensitive patient and operational data</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Usability</strong></td>
+                        <td>System Usability Scale > 80<br>Mobile responsive design<br>Minimal training requirements</td>
+                        <td>Healthcare workers have limited time for complex systems</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Reliability</strong></td>
+                        <td>Automated daily backups<br>Disaster recovery procedures<br>Fault tolerance mechanisms</td>
+                        <td>System failures cannot compromise patient care continuity</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Scalability</strong></td>
+                        <td>Support additional PHCs<br>Handle growing data volumes<br>10GB+ data storage capacity</td>
+                        <td>Future expansion across Oyo State healthcare network</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="highlight">
+                <strong>Healthcare-Specific Requirements:</strong> WCAG 2.1 accessibility compliance, offline functionality for connectivity issues, and integration with existing PHC workflows.
+            </div>
+        </div>
+
+        <!-- Slide 6: Feasibility Study -->
+        <div class="slide">
+            <div class="slide-number">6</div>
+            <h2>Feasibility Study</h2>
+
+            <div class="two-column">
+                <div class="column">
+                    <div class="info-box">
+                        <h3>Technical Feasibility ✓</h3>
+                        <ul>
+                            <li><strong>Elixir/Phoenix:</strong> Proven real-time capabilities and fault tolerance</li>
+                            <li><strong>React.js:</strong> Mature ecosystem for healthcare UIs</li>
+                            <li><strong>PostgreSQL:</strong> ACID compliance for healthcare data integrity</li>
+                            <li><strong>Infrastructure:</strong> Cloud hosting with 99.9% availability</li>
+                            <li><strong>Connectivity:</strong> Basic internet access confirmed at target PHCs</li>
+                        </ul>
+                        <div style="background: #d4edda; padding: 10px; border-radius: 5px; margin-top: 10px;">
+                            <strong>Assessment:</strong> HIGHLY FEASIBLE
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <h3>Economic Feasibility ✓</h3>
+                        <ul>
+                            <li><strong>Development:</strong> Open-source technology stack</li>
+                            <li><strong>Hosting:</strong> $25-50/month cloud infrastructure</li>
+                            <li><strong>Maintenance:</strong> Minimal ongoing operational costs</li>
+                            <li><strong>ROI:</strong> Significant savings from reduced resource waste</li>
+                        </ul>
+                        <div style="background: #d4edda; padding: 10px; border-radius: 5px; margin-top: 10px;">
+                            <strong>Assessment:</strong> ECONOMICALLY VIABLE
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="info-box">
+                        <h3>Operational Feasibility ✓</h3>
+                        <ul>
+                            <li><strong>Stakeholder Buy-in:</strong> LGA Health Department support confirmed</li>
+                            <li><strong>User Acceptance:</strong> PHC staff eager for digital solutions</li>
+                            <li><strong>Training Requirements:</strong> Minimal due to intuitive design</li>
+                            <li><strong>Workflow Integration:</strong> Designed to enhance existing processes</li>
+                        </ul>
+                        <div style="background: #d4edda; padding: 10px; border-radius: 5px; margin-top: 10px;">
+                            <strong>Assessment:</strong> OPERATIONALLY SOUND
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <h3>Schedule Feasibility ⚠️</h3>
+                        <ul>
+                            <li><strong>Development:</strong> 2 months (MVP approach)</li>
+                            <li><strong>Testing & Deployment:</strong> 3 weeks</li>
+                            <li><strong>Documentation:</strong> 1 week</li>
+                            <li><strong>Risk:</strong> Compressed timeline requires focused scope</li>
+                        </ul>
+                        <div style="background: #fff3cd; padding: 10px; border-radius: 5px; margin-top: 10px;">
+                            <strong>Assessment:</strong> ACHIEVABLE WITH FOCUS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: System Architecture -->
+        <div class="slide">
+            <div class="slide-number">7</div>
+            <h2>System Design - System Architecture</h2>
+
+            <h3>Service-Oriented Architecture with Phoenix Framework</h3>
+
+            <div class="diagram-placeholder" style="height: 180px;">
+                <strong>LAYERED SYSTEM ARCHITECTURE</strong><br>
+                Presentation Layer: React.js Frontend (Responsive Design)<br>
+                ↕ HTTPS/WebSocket Communication ↕<br>
+                API Gateway: Phoenix Router (Rate Limiting, Authentication)<br>
+                ↕ Internal Service Calls ↕<br>
+                Business Logic: Phoenix Contexts (Domain Services)<br>
+                ↕ Ecto Database Access ↕<br>
+                Data Layer: PostgreSQL (ACID Compliance, Encryption)
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h4>Frontend Technology</h4>
+                    <ul style="font-size: 14px;">
+                        <li><strong>React.js:</strong> Component-based UI</li>
+                        <li><strong>Tailwind CSS:</strong> Utility-first styling</li>
+                        <li><strong>React Query:</strong> Efficient API data fetching</li>
+                        <li><strong>Zustand:</strong> Lightweight state management</li>
+                    </ul>
+                </div>
+                <div class="tech-item">
+                    <h4>Backend Technology</h4>
+                    <ul style="font-size: 14px;">
+                        <li><strong>Elixir/Phoenix:</strong> Real-time, fault-tolerant</li>
+                        <li><strong>Phoenix LiveView:</strong> Real-time UI updates</li>
+                        <li><strong>Ecto:</strong> Database wrapper and query builder</li>
+                        <li><strong>Guardian:</strong> JWT authentication</li>
+                    </ul>
+                </div>
+                <div class="tech-item">
+                    <h4>Database & Infrastructure</h4>
+                    <ul style="font-size: 14px;">
+                        <li><strong>PostgreSQL:</strong> Primary database</li>
+                        <li><strong>Redis:</strong> Session and cache management</li>
+                        <li><strong>Cloud Hosting:</strong> Scalable deployment</li>
+                        <li><strong>SSL/TLS:</strong> End-to-end encryption</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <strong>Architecture Benefits:</strong> Actor model concurrency for handling thousands of concurrent PHC users, built-in fault tolerance, and real-time communication capabilities essential for healthcare coordination.
+            </div>
+        </div>
+
+        <!-- Slide 8: Data Flow Diagrams -->
+        <div class="slide">
+            <div class="slide-number">8</div>
+            <h2>Data Flow Diagrams</h2>
+
+            <h3>Context Diagram - System Boundary</h3>
+            <div class="diagram-placeholder" style="height: 120px;">
+                <strong>CONTEXT DIAGRAM</strong><br>
+                PHC Medical Staff ← → [Healthcare Resource Platform] ← → PHC Database<br>
+                PHC Administrators ← → [Healthcare Resource Platform] ← → External Notification Services<br>
+                LGA Health Officials ← → [Healthcare Resource Platform] ← → Audit & Reporting Systems
+            </div>
+
+            <h3>Level 0 DFD - Major System Processes</h3>
+            <div class="diagram-placeholder" style="height: 180px;">
+                <strong>LEVEL 0 DATA FLOW DIAGRAM</strong><br>
+                1.0 User Authentication ← User Credentials → Google OAuth<br>
+                ↓ Authenticated Users ↓<br>
+                2.0 Resource Management ← → 3.0 Communication System<br>
+                ↓ ↑ ↓ ↑<br>
+                4.0 Referral Management ← → 5.0 Reporting & Analytics<br>
+                ↓ All Data Flows ↓<br>
+                D1: User Database | D2: Resource Inventory | D3: Messages | D4: Referrals | D5: System Logs
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <h4>Key Data Stores</h4>
+                    <ul>
+                        <li><strong>D1:</strong> User profiles and authentication</li>
+                        <li><strong>D2:</strong> Resource inventory and requests</li>
+                        <li><strong>D3:</strong> Inter-PHC communications</li>
+                        <li><strong>D4:</strong> Patient referrals and tracking</li>
+                        <li><strong>D5:</strong> Audit trails and system logs</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>External Entities</h4>
+                    <ul>
+                        <li>PHC Medical Officers</li>
+                        <li>PHC Administrators</li>
+                        <li>Pharmacy Personnel</li>
+                        <li>LGA Health Department</li>
+                        <li>System Administrators</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Entity-Relationship Diagram -->
+        <div class="slide">
+            <div class="slide-number">9</div>
+            <h2>Entity-Relationship Diagram</h2>
+
+            <div class="diagram-placeholder" style="height: 300px;">
+                <strong>HEALTHCARE RESOURCE SHARING ERD</strong><br>
+                [USER] ──(belongs_to)── [FACILITY] ──(has_many)── [INVENTORY]<br>
+                │                          │                        │<br>
+                │(creates)                 │(located_at)            │(contains)<br>
+                │                          │                        │<br>
+                [RESOURCE_REQUEST] ──(for)── [RESOURCE] ──(tracked_in)── [INVENTORY]<br>
+                │                          │<br>
+                │(approved_by)             │(used_in)<br>
+                │                          │<br>
+                [APPROVAL] ──(by)── [USER] │<br>
+                                           │<br>
+                [REFERRAL] ──(created_by)── [USER]<br>
+                │<br>
+                │(concerns)<br>
+                │<br>
+                [PATIENT] ──(referred_to)── [FACILITY]<br>
+                <br>
+                [MESSAGE] ──(sent_by)── [USER] ──(to)── [FACILITY]
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <h4>Core Entities</h4>
+                    <ul>
+                        <li><strong>USER:</strong> Healthcare staff (id, name, email, role, facility_id)</li>
+                        <li><strong>FACILITY:</strong> PHCs (id, name, address, coordinates, lga)</li>
+                        <li><strong>RESOURCE:</strong> Medical supplies (id, name, category, unit)</li>
+                        <li><strong>INVENTORY:</strong> Stock levels (id, resource_id, facility_id, quantity, expiry)</li>
+                        <li><strong>RESOURCE_REQUEST:</strong> Sharing requests (id, requester_id, resource_id, status)</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>Key Relationships</h4>
+                    <ul>
+                        <li><strong>1:M</strong> - User belongs to one Facility</li>
+                        <li><strong>1:M</strong> - Facility has many Inventory items</li>
+                        <li><strong>M:1</strong> - Requests relate to one Resource</li>
+                        <li><strong>1:M</strong> - User creates many Requests</li>
+                        <li><strong>M:M</strong> - Resources tracked across Facilities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Use Case Diagrams -->
+        <div class="slide">
+            <div class="slide-number">10</div>
+            <h2>Use Case Diagrams</h2>
+
+            <div class="diagram-placeholder" style="height: 220px;">
+                <strong>PRIMARY HEALTHCARE RESOURCE SHARING USE CASES</strong><br>
+                <br>
+                Medical Officer: [Login] → [View Dashboard] → [Check Inventory] → [Request Resources]<br>
+                                     ↓        ↓             ↓               ↓<br>
+                Administrator:  [Approve Requests] → [Manage Users] → [Generate Reports]<br>
+                                     ↓                   ↓              ↓<br>
+                Pharmacist:     [Update Inventory] → [Process Requests] → [Track Expiry]<br>
+                                     ↓                   ↓               ↓<br>
+                System:         [Send Notifications] → [Backup Data] → [Audit Activities]<br>
+                <br>
+                Referral System: [Create Referral] → [Track Patient] → [Update Status]
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <div class="info-box">
+                        <h4>Medical Officer Use Cases</h4>
+                        <ul>
+                            <li>Authenticate with Google OAuth</li>
+                            <li>View real-time resource availability</li>
+                            <li>Submit resource sharing requests</li>
+                            <li>Create patient referrals</li>
+                            <li>Communicate with other PHCs</li>
+                            <li>Receive critical notifications</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="info-box">
+                        <h4>Administrator Use Cases</h4>
+                        <ul>
+                            <li>Manage user accounts and roles</li>
+                            <li>Approve/reject resource requests</li>
+                            <li>Configure system settings</li>
+                            <li>Generate utilization reports</li>
+                            <li>Monitor system performance</li>
+                            <li>Manage facility information</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <strong>Critical Use Cases:</strong> Emergency resource requests, urgent patient referrals, and real-time inventory alerts prioritized for immediate system response.
+            </div>
+        </div>
+
+        <!-- Slide 11: Class Diagrams -->
+        <div class="slide">
+            <div class="slide-number">11</div>
+            <h2>Class Diagrams (Object-Oriented Design)</h2>
+
+            <div class="diagram-placeholder" style="height: 280px;">
+                <strong>MAIN SYSTEM CLASSES</strong><br>
+                <br>
+                User {<br>
+                  -id: UUID, -name: String, -email: String, -role: Enum<br>
+                  +authenticate(), +create_request(), +send_message()<br>
+                }<br>
+                ↓ belongs_to<br>
+                Facility {<br>
+                  -id: UUID, -name: String, -coordinates: Point<br>
+                  +get_inventory(), +calculate_distance(), +get_users()<br>
+                }<br>
+                ↓ has_many<br>
+                ResourceRequest {<br>
+                  -id: UUID, -quantity: Integer, -status: Enum, -priority: Enum<br>
+                  +submit(), +approve(), +fulfill(), +track_status()<br>
+                }<br>
+                ↓ relates_to<br>
+                Resource {<br>
+                  -id: UUID, -name: String, -category: String, -unit: String<br>
+                  +check_availability(), +calculate_need(), +update_stock()<br>
+                }
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <h4>Core Domain Classes</h4>
+                    <ul>
+                        <li><strong>User:</strong> Authentication, role management, activity tracking</li>
+                        <li><strong>Facility:</strong> PHC information, location services, user management</li>
+                        <li><strong>Resource:</strong> Medical supplies catalog, availability tracking</li>
+                        <li><strong>ResourceRequest:</strong> Sharing workflow, approval process</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>Supporting Classes</h4>
+                    <ul>
+                        <li><strong>Inventory:</strong> Stock level management, expiry tracking</li>
+                        <li><strong>Referral:</strong> Patient referral workflow</li>
+                        <li><strong>Message:</strong> Inter-PHC communication</li>
+                        <li><strong>Notification:</strong> Real-time alert system</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 12: Sequence Diagrams -->
+        <div class="slide">
+            <div class="slide-number">12</div>
+            <h2>Sequence Diagrams</h2>
+
+            <h3>Resource Request Process Flow</h3>
+            <div class="diagram-placeholder" style="height: 220px;">
+                <strong>RESOURCE REQUEST SEQUENCE</strong><br>
+                <br>
+                Medical Officer → System: authenticate()<br>
+                System → Google OAuth: verify_token()<br>
+                Google OAuth → System: user_data<br>
+                System → Medical Officer: authenticate
